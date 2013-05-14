@@ -1,0 +1,955 @@
+<?xml version="1.0"?>
+<wp_option_tree>
+  <row>
+    <id>1</id>
+    <item_id>general_default</item_id>
+    <item_title>General</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>1</item_sort>
+  </row>
+  <row>
+    <id>3</id>
+    <item_id>logo</item_id>
+    <item_title>Upload logo</item_title>
+    <item_desc>Upload your own logo (remember to choose insert to post)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>2</item_sort>
+  </row>
+  <row>
+    <id>50</id>
+    <item_id>small_logo</item_id>
+    <item_title>Upload footer logo</item_title>
+    <item_desc>Upload logo for footer section</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>3</item_sort>
+  </row>
+  <row>
+    <id>7</id>
+    <item_id>bg_image</item_id>
+    <item_title>First level - Background image</item_title>
+    <item_desc>Choose main background (if image will have 100% opacity - it will cover background color)</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>4</item_sort>
+  </row>
+  <row>
+    <id>108</id>
+    <item_id>sec_bg</item_id>
+    <item_title>Second level - Background image</item_title>
+    <item_desc>Choose second background image. It should be transparent if you want to get overlay effect. For example transparent png stripes.</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>5</item_sort>
+  </row>
+  <row>
+    <id>8</id>
+    <item_id>bg_repeat</item_id>
+    <item_title>Background - image repeat</item_title>
+    <item_desc>If blank background image will be repeated both vertically and horizontally. This is default.</item_desc>
+    <item_type>select</item_type>
+    <item_options>no-repeat, repeat-x, repeat-y</item_options>
+    <item_sort>6</item_sort>
+  </row>
+  <row>
+    <id>111</id>
+    <item_id>content_image</item_id>
+    <item_title>Conten box - background image</item_title>
+    <item_desc>Choose content box background image</item_desc>
+    <item_type>upload</item_type>
+    <item_options></item_options>
+    <item_sort>7</item_sort>
+  </row>
+  <row>
+    <id>112</id>
+    <item_id>content_bg_repeat</item_id>
+    <item_title>Content box -  image repeat</item_title>
+    <item_desc>If blank background image will be repeated both vertically and horizontally. This is default.</item_desc>
+    <item_type>select</item_type>
+    <item_options>no-repeat, repeat-x, repeat-y</item_options>
+    <item_sort>8</item_sort>
+  </row>
+  <row>
+    <id>5</id>
+    <item_id>global_styling</item_id>
+    <item_title>Typography</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>9</item_sort>
+  </row>
+  <row>
+    <id>49</id>
+    <item_id>nav_size</item_id>
+    <item_title>Navigation font size</item_title>
+    <item_desc>Enter navigation font size (default 20px)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>10</item_sort>
+  </row>
+  <row>
+    <id>4</id>
+    <item_id>main_f</item_id>
+    <item_title>Content, sidebar,  footer font size</item_title>
+    <item_desc>default - 13px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>11</item_sort>
+  </row>
+  <row>
+    <id>9</id>
+    <item_id>h1</item_id>
+    <item_title>Define h1 - heading size</item_title>
+    <item_desc>don&amp;#039;t forget px after value (default - 24px)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>12</item_sort>
+  </row>
+  <row>
+    <id>10</id>
+    <item_id>h2</item_id>
+    <item_title>Define h2 - heading size</item_title>
+    <item_desc>default - 22px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>13</item_sort>
+  </row>
+  <row>
+    <id>11</id>
+    <item_id>h3</item_id>
+    <item_title>Define h3 - heading size</item_title>
+    <item_desc>default - 20px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>14</item_sort>
+  </row>
+  <row>
+    <id>12</id>
+    <item_id>h4</item_id>
+    <item_title>Define h4 - heading size</item_title>
+    <item_desc>default - 18px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>15</item_sort>
+  </row>
+  <row>
+    <id>13</id>
+    <item_id>h5</item_id>
+    <item_title>Define h5 - heading size</item_title>
+    <item_desc>default - 16px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>16</item_sort>
+  </row>
+  <row>
+    <id>14</id>
+    <item_id>h6</item_id>
+    <item_title>Define h6 - heading size</item_title>
+    <item_desc>default - 14px</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>17</item_sort>
+  </row>
+  <row>
+    <id>52</id>
+    <item_id>color_var</item_id>
+    <item_title>Color variations</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>18</item_sort>
+  </row>
+  <row>
+    <id>121</id>
+    <item_id>footer_colors</item_id>
+    <item_title>Footer colors</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Footer color options&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>19</item_sort>
+  </row>
+  <row>
+    <id>113</id>
+    <item_id>footer_content_color</item_id>
+    <item_title>Footer content color</item_title>
+    <item_desc>Choose footer content text color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>20</item_sort>
+  </row>
+  <row>
+    <id>35</id>
+    <item_id>footer_color</item_id>
+    <item_title>Footer color</item_title>
+    <item_desc>Choose footer color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>21</item_sort>
+  </row>
+  <row>
+    <id>114</id>
+    <item_id>footer_heading_color</item_id>
+    <item_title>Footer heading color</item_title>
+    <item_desc>Choose footer heading color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>22</item_sort>
+  </row>
+  <row>
+    <id>119</id>
+    <item_id>footer_bottom</item_id>
+    <item_title>Footer list divider color</item_title>
+    <item_desc>Choose footer list divider color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>23</item_sort>
+  </row>
+  <row>
+    <id>120</id>
+    <item_id>footer_hover</item_id>
+    <item_title>Footer content hover color</item_title>
+    <item_desc>Choose footer content hover color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>24</item_sort>
+  </row>
+  <row>
+    <id>36</id>
+    <item_id>footer_copy_color</item_id>
+    <item_title>Copyright text color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>25</item_sort>
+  </row>
+  <row>
+    <id>37</id>
+    <item_id>footer_copy_a_color</item_id>
+    <item_title>Copyright link color</item_title>
+    <item_desc></item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>26</item_sort>
+  </row>
+  <row>
+    <id>123</id>
+    <item_id>main_color_variations</item_id>
+    <item_title>Main color variations</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Main color options&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>27</item_sort>
+  </row>
+  <row>
+    <id>6</id>
+    <item_id>bg_color</item_id>
+    <item_title>Background color</item_title>
+    <item_desc>Choose main background color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>28</item_sort>
+  </row>
+  <row>
+    <id>109</id>
+    <item_id>content_bg</item_id>
+    <item_title>Content box background color</item_title>
+    <item_desc>Choose content box background color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>29</item_sort>
+  </row>
+  <row>
+    <id>110</id>
+    <item_id>content_border</item_id>
+    <item_title>Content box border color</item_title>
+    <item_desc>Choose content box border color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>30</item_sort>
+  </row>
+  <row>
+    <id>61</id>
+    <item_id>body_text_color</item_id>
+    <item_title>Content text color</item_title>
+    <item_desc>Choose body content text color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>31</item_sort>
+  </row>
+  <row>
+    <id>118</id>
+    <item_id>content_heading</item_id>
+    <item_title>Element heading color</item_title>
+    <item_desc>Choose heading color for such elements as widget heading, portfolio heading, and menu text.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>32</item_sort>
+  </row>
+  <row>
+    <id>54</id>
+    <item_id>heading_color</item_id>
+    <item_title>Heading color</item_title>
+    <item_desc>Choose h1, h2, h3, h4, h5, h6 heading color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>33</item_sort>
+  </row>
+  <row>
+    <id>71</id>
+    <item_id>link_color</item_id>
+    <item_title>Link color</item_title>
+    <item_desc>Choose content link&amp;#039;s color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>34</item_sort>
+  </row>
+  <row>
+    <id>72</id>
+    <item_id>link_hover</item_id>
+    <item_title>Link hover color</item_title>
+    <item_desc>Choose content link&amp;#039;s hover color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>35</item_sort>
+  </row>
+  <row>
+    <id>73</id>
+    <item_id>heading_background</item_id>
+    <item_title>Page &amp;amp; post title background color</item_title>
+    <item_desc>Choose page title background &amp;amp; post title background</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>36</item_sort>
+  </row>
+  <row>
+    <id>117</id>
+    <item_id>sidebar_widget</item_id>
+    <item_title>Sidebar widget hover color</item_title>
+    <item_desc>Choose sidebar widget hover color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>37</item_sort>
+  </row>
+  <row>
+    <id>74</id>
+    <item_id>widget_color</item_id>
+    <item_title>Widget, post details, menu background color</item_title>
+    <item_desc>Choose widget title background, post detail background &amp;amp; menu background color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>38</item_sort>
+  </row>
+  <row>
+    <id>124</id>
+    <item_id>navigation_color_variations</item_id>
+    <item_title>Navigation color variations</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Navigation color options&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>39</item_sort>
+  </row>
+  <row>
+    <id>47</id>
+    <item_id>nav_color</item_id>
+    <item_title>Navigation link color</item_title>
+    <item_desc>Choose navigation link color.</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>40</item_sort>
+  </row>
+  <row>
+    <id>48</id>
+    <item_id>nav_hover</item_id>
+    <item_title>Navigation link hover color</item_title>
+    <item_desc>Choose navigation link hover color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>41</item_sort>
+  </row>
+  <row>
+    <id>70</id>
+    <item_id>sub_bg</item_id>
+    <item_title>Sub-menu background</item_title>
+    <item_desc>Choose sub-menu background color ( deafault - #fff )</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>42</item_sort>
+  </row>
+  <row>
+    <id>125</id>
+    <item_id>search_color_variations</item_id>
+    <item_title>Search color variations</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Search color options&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>43</item_sort>
+  </row>
+  <row>
+    <id>107</id>
+    <item_id>search_bg</item_id>
+    <item_title>Search background</item_title>
+    <item_desc>Choose search box background color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>44</item_sort>
+  </row>
+  <row>
+    <id>122</id>
+    <item_id>search_text</item_id>
+    <item_title>Search text color</item_title>
+    <item_desc>Choose search input text color</item_desc>
+    <item_type>colorpicker</item_type>
+    <item_options></item_options>
+    <item_sort>45</item_sort>
+  </row>
+  <row>
+    <id>21</id>
+    <item_id>fonts</item_id>
+    <item_title>Cufon Fonts Replacement</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>46</item_sort>
+  </row>
+  <row>
+    <id>22</id>
+    <item_id>cufon</item_id>
+    <item_title>Cufon fonts replacement</item_title>
+    <item_desc>Check to enable Cufon font replace</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>enable</item_options>
+    <item_sort>47</item_sort>
+  </row>
+  <row>
+    <id>84</id>
+    <item_id>cufon_pos</item_id>
+    <item_title>Cufon position</item_title>
+    <item_desc>Different Cufon fonts can display a little differently. If your chosen font displays too low or to high in page title, menu or widget title, please use this field to move it up or down. To move up enter negative value in px and to move up enter positive. Default value ir -2px if left empty.
+Example: -1px (moves 1px up)
+3px (moves 3px down)</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>48</item_sort>
+  </row>
+  <row>
+    <id>23</id>
+    <item_id>fontc</item_id>
+    <item_title>Choose your font</item_title>
+    <item_desc>Choose your custom font</item_desc>
+    <item_type>select</item_type>
+    <item_options>Raleway,Prociono,Ostrich_Sans_bold,Ostrich_Sans_black,Ostrich_Sans,OFL_Sorts_Mill_Goudy,Linden_Hill,League_Script,League_Gothic,Junction,Fanwood_italic,Fanwood,ChunkFive,Blackout_mid,Blackout,BebasNeue,Bonvenocf,Caviar-dreams,m-1c,quicksand,titillium</item_options>
+    <item_sort>49</item_sort>
+  </row>
+  <row>
+    <id>32</id>
+    <item_id>footer</item_id>
+    <item_title>Footer</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>50</item_sort>
+  </row>
+  <row>
+    <id>38</id>
+    <item_id>footer_slide</item_id>
+    <item_title>Sliding footer</item_title>
+    <item_desc>enable / disable sliding footer</item_desc>
+    <item_type>checkbox</item_type>
+    <item_options>enable</item_options>
+    <item_sort>51</item_sort>
+  </row>
+  <row>
+    <id>33</id>
+    <item_id>footer_col</item_id>
+    <item_title>Footer column width</item_title>
+    <item_desc>320px = 3 columns
+240px = 4 columns
+192px = 5 columns</item_desc>
+    <item_type>select</item_type>
+    <item_options>320px,240px,192px</item_options>
+    <item_sort>52</item_sort>
+  </row>
+  <row>
+    <id>34</id>
+    <item_id>footer_position</item_id>
+    <item_title>Copyright text position</item_title>
+    <item_desc>Enter how much pixels should copyright text move away from left.
+default: 0px</item_desc>
+    <item_type>input</item_type>
+    <item_options>left,center,right</item_options>
+    <item_sort>53</item_sort>
+  </row>
+  <row>
+    <id>56</id>
+    <item_id>contact_template_settings</item_id>
+    <item_title>Contact page settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>54</item_sort>
+  </row>
+  <row>
+    <id>57</id>
+    <item_id>latitudes</item_id>
+    <item_title>Latitude</item_title>
+    <item_desc>Enter latitude for your location. It can be found in google maps.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>55</item_sort>
+  </row>
+  <row>
+    <id>58</id>
+    <item_id>longitudes</item_id>
+    <item_title>Longitude</item_title>
+    <item_desc>Enter longitude for your location. It can be found in google maps.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>56</item_sort>
+  </row>
+  <row>
+    <id>59</id>
+    <item_id>zoom</item_id>
+    <item_title>Zoom</item_title>
+    <item_desc>Enter zoom value starting at 0. For examlpe 8.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>57</item_sort>
+  </row>
+  <row>
+    <id>60</id>
+    <item_id>map_type</item_id>
+    <item_title>Map type</item_title>
+    <item_desc>Select map type</item_desc>
+    <item_type>select</item_type>
+    <item_options>ROADMAP, SATELLITE, HYBRID, TERRAIN</item_options>
+    <item_sort>58</item_sort>
+  </row>
+  <row>
+    <id>63</id>
+    <item_id>other_setting</item_id>
+    <item_title>Notification settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>59</item_sort>
+  </row>
+  <row>
+    <id>65</id>
+    <item_id>contact_required</item_id>
+    <item_title>Contact Form: Required Text</item_title>
+    <item_desc>Text displayed next to the required fields.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>60</item_sort>
+  </row>
+  <row>
+    <id>132</id>
+    <item_id>contact_is_required</item_id>
+    <item_title>Contact form: is required text</item_title>
+    <item_desc>If required field is empty: error message</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>61</item_sort>
+  </row>
+  <row>
+    <id>64</id>
+    <item_id>contact_successmsg</item_id>
+    <item_title>Contact Form: Success Message</item_title>
+    <item_desc>Success message displayed after the form is submitted.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>5</item_options>
+    <item_sort>62</item_sort>
+  </row>
+  <row>
+    <id>66</id>
+    <item_id>title_404</item_id>
+    <item_title>404 Page Page Title</item_title>
+    <item_desc>404 Error Page Title.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>63</item_sort>
+  </row>
+  <row>
+    <id>67</id>
+    <item_id>message_404</item_id>
+    <item_title>404 Message</item_title>
+    <item_desc>404 Error Message.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>5</item_options>
+    <item_sort>64</item_sort>
+  </row>
+  <row>
+    <id>68</id>
+    <item_id>search</item_id>
+    <item_title>Search Results Title</item_title>
+    <item_desc>Search Results Page Title.</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>65</item_sort>
+  </row>
+  <row>
+    <id>69</id>
+    <item_id>search_message</item_id>
+    <item_title>Search Results Nothing Found Message.</item_title>
+    <item_desc>Message that is displayed when a search is unsuccessful.</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>5</item_options>
+    <item_sort>66</item_sort>
+  </row>
+  <row>
+    <id>115</id>
+    <item_id>footer_copyright_text</item_id>
+    <item_title>Footer: Copyright text</item_title>
+    <item_desc>Change translation of footer copyright text</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>67</item_sort>
+  </row>
+  <row>
+    <id>116</id>
+    <item_id>footer_all</item_id>
+    <item_title>Footer: All rights reserved</item_title>
+    <item_desc>Insert translation of All right reserved</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>68</item_sort>
+  </row>
+  <row>
+    <id>75</id>
+    <item_id>translations</item_id>
+    <item_title>Custom Text/Translations</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>69</item_sort>
+  </row>
+  <row>
+    <id>129</id>
+    <item_id>search_heading</item_id>
+    <item_title>search text</item_title>
+    <item_desc>&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;style type=&amp;quot;text/css&amp;quot;&amp;gt;
+h1 {font-family: Georgia, Serif; color:#afafaf; text-align:center;  font-weight:normal; font-style:italic; text-decoration:none;}
+&amp;lt;/style&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+&amp;lt;h1&amp;gt;Search&amp;lt;/h1&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>70</item_sort>
+  </row>
+  <row>
+    <id>82</id>
+    <item_id>port_read</item_id>
+    <item_title>Search , Archive - Read more</item_title>
+    <item_desc>Custom text for &amp;quot;Read more&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>71</item_sort>
+  </row>
+  <row>
+    <id>126</id>
+    <item_id>portfolio_heading</item_id>
+    <item_title>Portfolio</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Portfolio&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>72</item_sort>
+  </row>
+  <row>
+    <id>76</id>
+    <item_id>port_desc</item_id>
+    <item_title>Portfolio -  description</item_title>
+    <item_desc>Custom text for &amp;quot;description&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>73</item_sort>
+  </row>
+  <row>
+    <id>77</id>
+    <item_id>port_det</item_id>
+    <item_title>Portfolio - details</item_title>
+    <item_desc>Custom text for &amp;quot;details&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>74</item_sort>
+  </row>
+  <row>
+    <id>79</id>
+    <item_id>port_client</item_id>
+    <item_title>Portfolio - client</item_title>
+    <item_desc>Custom text for &amp;quot;client&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>75</item_sort>
+  </row>
+  <row>
+    <id>80</id>
+    <item_id>port_url</item_id>
+    <item_title>Portfolio - URL</item_title>
+    <item_desc>Custom text for &amp;quot;URL&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>76</item_sort>
+  </row>
+  <row>
+    <id>78</id>
+    <item_id>port_cat</item_id>
+    <item_title>Portfolio - category</item_title>
+    <item_desc>Custom text for &amp;quot;category&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>77</item_sort>
+  </row>
+  <row>
+    <id>81</id>
+    <item_id>port_back</item_id>
+    <item_title>Portfolio - BACK button</item_title>
+    <item_desc>Custom text for &amp;quot;Back&amp;quot; button</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>78</item_sort>
+  </row>
+  <row>
+    <id>127</id>
+    <item_id>blog_text</item_id>
+    <item_title>Blog text</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Blog&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>79</item_sort>
+  </row>
+  <row>
+    <id>85</id>
+    <item_id>blog_posted</item_id>
+    <item_title>Blog - posted on</item_title>
+    <item_desc>Custom text for &amp;quot;posted on&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>80</item_sort>
+  </row>
+  <row>
+    <id>86</id>
+    <item_id>blog_in</item_id>
+    <item_title>Blog - posted in</item_title>
+    <item_desc>Custom text for &amp;quot;posted in&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>81</item_sort>
+  </row>
+  <row>
+    <id>87</id>
+    <item_id>blog_comment</item_id>
+    <item_title>Blog - comment</item_title>
+    <item_desc>Custom text for &amp;quot;comment&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>82</item_sort>
+  </row>
+  <row>
+    <id>88</id>
+    <item_id>blog_comments</item_id>
+    <item_title>Blog - comments</item_title>
+    <item_desc>Custom text for &amp;quot;comments&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>83</item_sort>
+  </row>
+  <row>
+    <id>89</id>
+    <item_id>blog_read</item_id>
+    <item_title>Blog - Read more</item_title>
+    <item_desc>Custom text for &amp;quot;Read more&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>84</item_sort>
+  </row>
+  <row>
+    <id>90</id>
+    <item_id>blog_leave</item_id>
+    <item_title>Blog - leave a comment</item_title>
+    <item_desc>Custom text for &amp;quot;Leave a comment&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>85</item_sort>
+  </row>
+  <row>
+    <id>128</id>
+    <item_id>comment_text</item_id>
+    <item_title>Comment text</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Comments&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>86</item_sort>
+  </row>
+  <row>
+    <id>135</id>
+    <item_id>comments_name</item_id>
+    <item_title>Comments - Name</item_title>
+    <item_desc>Custom Comments - Name translation</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>87</item_sort>
+  </row>
+  <row>
+    <id>136</id>
+    <item_id>comments_email</item_id>
+    <item_title>Comments - Email</item_title>
+    <item_desc>Custom Comments - Email translation</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>88</item_sort>
+  </row>
+  <row>
+    <id>137</id>
+    <item_id>comments_website</item_id>
+    <item_title>Comments - Website</item_title>
+    <item_desc>Custom Comments - Website translation</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>89</item_sort>
+  </row>
+  <row>
+    <id>92</id>
+    <item_id>comments_responce</item_id>
+    <item_title>Comments - Responce to</item_title>
+    <item_desc>Custom text for &amp;quot;Response to&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>90</item_sort>
+  </row>
+  <row>
+    <id>91</id>
+    <item_id>comments_responces</item_id>
+    <item_title>Comments - Responses to</item_title>
+    <item_desc>Custom text for &amp;quot;Responses to&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>91</item_sort>
+  </row>
+  <row>
+    <id>93</id>
+    <item_id>comments_reply</item_id>
+    <item_title>Comments - reply</item_title>
+    <item_desc>Custom text for &amp;quot;Reply&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>92</item_sort>
+  </row>
+  <row>
+    <id>94</id>
+    <item_id>comments_add</item_id>
+    <item_title>Comments - Add a comment</item_title>
+    <item_desc>Custom text for &amp;quot;Add a coment&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>93</item_sort>
+  </row>
+  <row>
+    <id>95</id>
+    <item_id>comments_log</item_id>
+    <item_title>Comments - Logged in as</item_title>
+    <item_desc>Custom text for &amp;quot;Logged in as&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>94</item_sort>
+  </row>
+  <row>
+    <id>96</id>
+    <item_id>comments_out</item_id>
+    <item_title>Comments - Log out</item_title>
+    <item_desc>Custom text for &amp;quot;Log out&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>95</item_sort>
+  </row>
+  <row>
+    <id>97</id>
+    <item_id>comments_your</item_id>
+    <item_title>Comments - Your comment</item_title>
+    <item_desc>Custom text for &amp;quot;Your comment&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>96</item_sort>
+  </row>
+  <row>
+    <id>98</id>
+    <item_id>comments_button</item_id>
+    <item_title>Comments - Add comment</item_title>
+    <item_desc>Custom text for &amp;quot;Add comment&amp;quot;</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>97</item_sort>
+  </row>
+  <row>
+    <id>100</id>
+    <item_id>comments_pass</item_id>
+    <item_title>Comments - Pasword protected</item_title>
+    <item_desc>Pasword protected message text</item_desc>
+    <item_type>textarea</item_type>
+    <item_options>3</item_options>
+    <item_sort>98</item_sort>
+  </row>
+  <row>
+    <id>133</id>
+    <item_id>comments_click_here</item_id>
+    <item_title>Comments - Click here to cancel reply.</item_title>
+    <item_desc>Insert Comments - Click here to cancel reply. translation</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>99</item_sort>
+  </row>
+  <row>
+    <id>134</id>
+    <item_id>comments_moderation</item_id>
+    <item_title>Comments - Your comment is awaiting moderation</item_title>
+    <item_desc>Insert Comments - Your comment is awaiting moderation translation</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>100</item_sort>
+  </row>
+  <row>
+    <id>130</id>
+    <item_id>contact_text</item_id>
+    <item_title>contact text</item_title>
+    <item_desc>&amp;lt;h1&amp;gt;Contact form&amp;lt;/h1&amp;gt;</item_desc>
+    <item_type>textblock</item_type>
+    <item_options></item_options>
+    <item_sort>101</item_sort>
+  </row>
+  <row>
+    <id>99</id>
+    <item_id>contact_submit</item_id>
+    <item_title>Contact form - Submit button</item_title>
+    <item_desc>Custom text for &amp;quot;Submit&amp;quot; button</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>102</item_sort>
+  </row>
+  <row>
+    <id>102</id>
+    <item_id>blog_settings</item_id>
+    <item_title>Blog settings</item_title>
+    <item_desc></item_desc>
+    <item_type>heading</item_type>
+    <item_options></item_options>
+    <item_sort>103</item_sort>
+  </row>
+  <row>
+    <id>104</id>
+    <item_id>exclude_cat</item_id>
+    <item_title>Exclude categories</item_title>
+    <item_desc>Enter comma separated category ID you want to exclude and add &amp;quot;-&amp;quot;.
+Example: -1,-2,-3,-4</item_desc>
+    <item_type>input</item_type>
+    <item_options></item_options>
+    <item_sort>104</item_sort>
+  </row>
+</wp_option_tree>

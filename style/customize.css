@@ -1,0 +1,43 @@
+/* Customization Elements */
+
+
+/* Body background color/pattern
+   There are 17 different patterns to choose from, just change the number (pattern_07, pattern_12, pattern_03, etc.) */
+   
+body { background:#333735 url('images/pattern_07.png') repeat; }
+
+
+/* Remove these if you don't want a shadow behind the main block */
+#main { -moz-box-shadow:0 1px 6px rgba(0,0,0,0.3); -webkit-box-shadow:0 1px 6px rgba(0,0,0,0.3); box-shadow:0 1px 6px rgba(0,0,0,0.3); }
+#main:after { background:url('images/main_window_shadow.png') no-repeat top center; }
+/* END shadows */
+
+
+/* You can remove the large_top_lines if you want to, the second background is the main top image.
+   We load the background twice because not all browsers support multiple backgrounds. */
+   
+header {
+
+	/* For Older Browsers */
+	background:url('images/header_pic.JPG') no-repeat top center;
+	
+	/* For Modern Browsers */
+	background:url('images/large_top_image_lines.png') no-repeat center 10px, url('images/header_pic.JPG') no-repeat top center;
+	
+}
+
+
+/* Custom Color - Background Color */
+.sep,
+#profile .profile-details,
+#portfolio #filters span.active,
+#portfolio #filters span.active:hover,
+form.styled .button { background:#ff8c71; }
+
+/* Custom Color - Foreground Color (headings, links, etc.) */
+.page-content h3,
+.page-content a,
+header nav .symbol,
+header nav a:hover,
+#portfolio .item h3,
+#portfolio .item h3 a { color:#ff8c71; }

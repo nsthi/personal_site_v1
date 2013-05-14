@@ -1,0 +1,147 @@
+/* iPad 1024px to fix Retina Header Image */
+@media only screen and (max-width: 1024px) {
+
+	body { background-size:15%; }
+	
+	header {
+		height:288px;
+		background:url('images/large_top_image.jpg') no-repeat top center;
+		background-size:960px 288px;
+	}
+	
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+
+	#main:after { width:100%;background-size:100%; }
+	.wrapper { width:90%; }
+	
+	#profile .profile-photo { margin-bottom:10px; width:20%; height:auto; }
+	#profile .profile-who { width:30%; padding:4%; }
+	.window h1 { margin:-15px 0 5px; font-size:30px; letter-spacing:-1px; }
+	#profile .profile-who h2 { font-size:17px; }
+	#profile .profile-details { width:27%; margin:3% 3% 3% 0; float:right; }
+	#profile .profile-photo { width:17%; padding:3% 0 3% 3%; height:auto; float:left; }
+	
+	#portfolio, #resume, #contact { padding-top:5%; }
+	#portfolio { padding-right:0; }
+	#portfolio .sep, #portfolio .int-sep, #portfolio .page-content { width:96%; }
+	#portfolio .item { margin:0 3% 3% 0; width:30%; }
+	#portfolio .item img { width:100%; height:auto; }
+
+	.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth {
+	   position: relative;
+	   margin-right: 0;
+	   width:100%;
+	   margin-bottom: 15px;
+	   float: none;
+	}
+	
+	.page-content h3 span.date {
+		position:relative;
+		top:0; right:0;
+		display:block;
+		margin-bottom:2px;
+		font-size:15px;
+		color:#9c9c9c;
+	}
+	
+	form.styled .textbox,form.styled .textarea-wrap { padding:1%; }
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 767px) {
+
+	.wrapper { width:90%; }
+	header { height:150px; background-position:bottom center; }
+	
+	/* Main Navigation (Hidden) */
+	header nav { display:none; }
+	
+	/* Mobile Navigation (Shown) */
+	div.mobile-nav { overflow:hidden; text-transform:uppercase; color:#888; font-weight:bold; display:block; background:#fff; padding:15px 0; font-size:14px; line-height:30px; height:33px; }
+	div.mobile-nav .nav-title { padding-right:25px; display:block; text-align: right; cursor:pointer; }
+	div.mobile-nav .nav-title span { text-transform:none; font-size:19px; color:#ff8c71; }
+	div.mobile-nav .links { margin-top:18px; background:#fff; display:block; }
+	div.mobile-nav a { color:#5d5d5d; display:block; border-bottom:1px solid #ddd; padding:10px 20px; text-decoration: none; }
+	div.mobile-nav a:last-child { border:none; }
+	
+	div.mobile-nav.active { background:#ff8c71; color:#fff; }
+	div.mobile-nav.active .nav-title span { color:#fff; }
+	
+	div.mobile-nav {
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		-o-transition: all 0.25s ease-in-out;
+		-ms-transition: all 0.25s ease-in-out;
+		transition: all 0.25s ease-in-out;
+	}
+	
+	.window h1 {
+		letter-spacing:0;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		font-size: 18px;
+		line-height: 18px;
+		margin:0;
+		padding:0;
+	}
+	
+	#profile .profile-who h2 { margin:-4px 0 20px; }
+	#profile .profile-details { min-height:0; width:82%; float:none; padding:5% 5% 3% 5%; margin:0 4% 4%; }
+	#profile .profile-details .detail { float:none; width:100%; margin:0 0 5px; }
+	#profile .profile-details h3 { font-size:20px; }
+	#profile .profile-details .title, #profile .profile-details .desc { font-size:13px; line-height:18px; }
+	#profile .profile-details .desc { width:45%; }
+	#profile .profile-photo { width:24%; padding:4% 2% 4% 4%; height:auto; float:left; }
+	#profile .profile-who { width:62%; padding:4%; }
+	#profile .profile-who h2 { margin-bottom:15px; }
+	
+	.sep { margin:15px 0; }
+	
+	.mobile-hide { display:none; }
+	.mobile-clear { clear:both; display:block; height:1px; font-size:1px; }
+	
+	#portfolio, #resume, #contact, .page { border-top:5px solid #ff8c71; padding:5% 5% 2% 5%; }
+	#portfolio { padding-right:1%; }
+	
+	#portfolio .item {
+		margin:0 4% 5% 0;
+		width:46%;
+	}
+	
+	form.styled .textbox,form.styled .textarea-wrap { padding:2%; }
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+	.wrapper { width:100%; }
+	header { height:150px; }
+	
+	/* Socials */
+	header #socials { width:90%; text-align:center; }
+	header #socials a { display:inline-block; margin:0 0 0 5.5%; }
+	
+	#profile .profile-details { width:76%; padding:8% 8% 5% 8%; }
+	#profile .profile-details .desc { width:65%; }
+	#portfolio, #resume, #contact, .page { padding:6% 6% 3% 6%; }
+	
+	footer.wrapper { width:92%; padding:15px 4%; }
+	
+	#portfolio .sep, #portfolio .int-sep, #portfolio .page-content { width:100%; }
+	
+	#portfolio .item, #portfolio .item.last {
+		margin:0 0 8% 0;
+		width:100%;
+	}
+	
+	#portfolio #filters span { font-size:13px; text-align:center; padding:5%; width:90%; float:none; margin:0 0 1%; }
+	
+	form.styled .textbox,form.styled .textarea-wrap { padding:3%; }
+
+}
